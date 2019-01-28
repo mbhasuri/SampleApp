@@ -8,8 +8,8 @@ export const environment = {
     tenant: '56e74a31-ee36-4fb0-b589-5485c300bc7b',
     clientId: 'ffed903a-a8cd-4f61-b869-ed537bdd4350', //application Id
     endpoints: {
-      'https://graph.microsoft.com': '00000003-0000-0000-c000-000000000000',
-      'http://localhost:63464': '8478492f-a128-43a7-b0fa-b2c79ce2675b'
+      'https://graph.microsoft.com': 'xxxxxxxxxxxxx',
+      'http://localhost:63464': 'xxxxxxxxxxxxx'
     }
   }
 };
