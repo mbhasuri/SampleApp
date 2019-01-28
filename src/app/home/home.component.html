@@ -1,0 +1,41 @@
+<div style="width: 650px; overflow: elipses; margin: 0 auto; margin-top: 30px;">
+
+    <pre>
+
+    {{user | json}}
+
+  </pre>
+
+</div>
+
+<p>
+
+    <button name="Profile" (click)="profileClicked()">Get My Profile</button>
+
+</p>
+
+<div *ngIf="profile" style="width: 650px; overflow: elipses; margin: 0 auto; margin-top: 30px;">
+
+    <pre>
+
+    {{profile | json}}
+
+  </pre>
+
+</div>
+
+<p>
+
+    <button name="API DATA" (click)="apiClicked()">Get data from API</button>
+
+</p>
+
+<div *ngIf="profile" style="width: 650px; overflow: elipses; margin: 0 auto; margin-top: 30px;">
+
+    <pre>
+
+  {{data | json}}
+
+</pre>
+
+</div>
