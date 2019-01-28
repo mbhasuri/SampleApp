@@ -5,8 +5,8 @@
 export const environment = {
   production: false,
   config: {
-    tenant: '56e74a31-ee36-4fb0-b589-5485c300bc7b',
-    clientId: 'ffed903a-a8cd-4f61-b869-ed537bdd4350', //application Id
+    tenant: 'xxxxxxxxxxxxxxxxxxxxxxxx',
+    clientId: 'ffed903a-a8cd-4fxxxxxxxxxxx', //application Id
     endpoints: {
       'https://graph.microsoft.com': 'xxxxxxxxxxxxx',
       'http://localhost:63464': 'xxxxxxxxxxxxx'
